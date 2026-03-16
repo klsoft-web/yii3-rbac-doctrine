@@ -1,0 +1,33 @@
+{
+    "name": "klsoft/yii3-rbac-doctrine",
+    "type": "library",
+    "description": "The package provides Yii RBAC storage using the Doctrine ORM",
+    "homepage": "https://github.com/klsoft-web/yii3-rbac-doctrine",
+    "keywords": [
+        "authorization",
+        "authorisation",
+        "rbac",
+        "orm",
+        "doctrine",
+        "yii3"
+    ],
+    "license": "MIT",
+    "require": {
+        "yiisoft/rbac": "^2.0",
+        "klsoft/yii3-doctrine": "^1.0"
+    },
+    "extra": {
+        "config-plugin-options": {
+            "source-directory": "config"
+        },
+        "config-plugin": {
+            "params": "params.php",
+            "di": "di.php"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Klsoft\\Yii3RbacDoctrine\\": "src"
+        }
+    }
+}
