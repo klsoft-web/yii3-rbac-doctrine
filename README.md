@@ -37,11 +37,11 @@ return [
 Create the database schema:
 
 ```bash
-APP_ENV=dev ./yii doctrine:orm:schema-tool:create
+./yii doctrine:orm:schema-tool:create
 ```
 
 Update the database schema:
 
 ```bash
-APP_ENV=dev ./yii doctrine:orm:schema-tool:update --force 
+./yii doctrine:orm:schema-tool:update --force 
 ```
